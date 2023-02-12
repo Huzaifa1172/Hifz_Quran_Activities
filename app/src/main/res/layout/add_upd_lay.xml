@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:background="#666766"
+    android:paddingBottom="11dp"
+    android:paddingLeft="21dp"
+    android:paddingRight="21dp"
+
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Add Student"
+        android:textColor="#fff"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:id="@+id/std_name_title"
+        android:layout_margin="21dp"/>
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="11dp"
+        android:background="#fff"
+        android:hint="Enter Name"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="11dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/edit_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="11dp"
+        android:background="#fff"
+        android:hint="Enter Age"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="11dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:id="@+id/btn_action"
+        android:backgroundTint="#3A3636"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        />
+
+
+
+
+
+
+
+</LinearLayout>
